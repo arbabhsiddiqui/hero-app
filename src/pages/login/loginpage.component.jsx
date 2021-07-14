@@ -16,7 +16,7 @@ const LoginPage = ({ location, history }) => {
   const { loading, error, userInfo } = userLogin;
 
   // const redirect = location.search ? location.search.split("=")[1] : "/";
-  const redirect = "http://localhost:3000/main";
+  const redirect = "/main";
 
   useEffect(() => {
     if (userInfo) {
